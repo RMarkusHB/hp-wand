@@ -1,0 +1,19 @@
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Publish output
+publish/
+
+# Runtime data (gesture templates learned on device)
+HP.Wand/data/gestures/
+
+# Sound files (add your own)
+HP.Wand/data/sounds/
+
+# OS
+.DS_Store
+Thumbs.db

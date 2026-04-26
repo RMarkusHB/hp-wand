@@ -1,0 +1,27 @@
+{
+  "spells": [
+    {
+      "name": "Lumos",
+      "gesture": "lumos",
+      "steps": [
+        { "type": "digital", "pin": 17, "value": 1 },
+        { "type": "delay",   "ms": 100 },
+        { "type": "pwm",     "pin": 18, "value": 200 },
+        { "type": "sound",   "file": "data/sounds/lumos.wav" },
+        { "type": "delay",   "ms": 3000 },
+        { "type": "pwm",     "pin": 18, "value": 0 },
+        { "type": "digital", "pin": 17, "value": 0 }
+      ]
+    },
+    {
+      "name": "Nox",
+      "gesture": "nox",
+      "steps": [
+        { "type": "digital", "pin": 17, "value": 0 },
+        { "type": "pwm",     "pin": 18, "value": 0 },
+        { "type": "sound",   "file": "data/sounds/nox.wav" },
+        { "type": "delay",   "ms": 500 }
+      ]
+    }
+  ]
+}
